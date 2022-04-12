@@ -1,0 +1,121 @@
+/* css-переменные */
+:root {
+    --primaty-text-color: #757575;
+    --title-text-color: #212121;
+    --additional-text-color: #fff;
+    --primary-bg-color: #fff;
+    --additional-bg-color: #F5F4FA;
+    --accent: #2196F3;
+    --accent-btn-color: #188CE8;
+    --logo-second-part: #000;
+    --footer-adrees-color: rgba(255,255,255,.6);
+    --footer-bg-color: #2F303A;
+    --section-title-color: #757575;
+}
+
+/* C10 - color ,   */
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primaty-text-color); 
+}
+
+/* удаление подчеркиваний на ссылках */
+a {
+    text-decoration: none;
+}
+
+/* С16 */
+button {
+    cursor: pointer;
+}
+
+/* удаление маркеров списка */
+.list {
+    list-style: none;
+}
+
+/* Логотип */
+.logo-common-part {
+    color: var(--accent);
+}
+
+.header .logo-second-part {
+    color: var(--logo-second-part);
+}
+
+.footer .logo-second-part {
+    color: var(--additional-text-color);
+}
+
+/* навигация */
+.site-nav a {
+    color: var(--title-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent);
+}
+
+/* Контакты */
+.header-contacts {
+    color: #757575;
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+    color: var(--accent);
+}
+
+/* Герой */
+.hero {
+    background-color: var(--logo-second-part);
+}
+
+.hero-title {
+    color: var(--additional-text-color);
+}
+
+.hero-btn {
+    color: var(--additional-text-color);
+    background-color: var(--accent);
+}
+
+.hero-btn:hover,
+.hero-btn:focus
+{
+    background-color: var(--accent-btn-color);
+}
+
+/* разделы */
+.section-title {
+    color: var(--title-text-color);
+}
+
+.section-title-hidden {
+    color: var(--additional-text-color);
+}
+
+.section-text {
+    color: var(--section-title-color);
+}
+
+/* footer */
+.footer {
+    background-color: var(--footer-bg-color);
+}
+
+.footer-address {
+    color: var(--additional-text-color);
+}
+
+.footer-address-contacts {
+    color: var(--footer-adrees-color);
+}
+
+.footer-address:hover,
+.footer-address:focus,
+.footer-address-contacts:hover,
+.footer-address-contacts:focus {
+    color: var(--accent);
+}
